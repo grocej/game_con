@@ -1,0 +1,63 @@
+/*#Tom {
+  width: 100px;
+  height: 40px;
+  background-color: #4169e1;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+#Bob {
+  width: 100px;
+  height: 40px;
+  background-color: #ff4040;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}*/
+html {
+  background: url(images/bkgrd3.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.track-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.r1d1, .r1d2, .r1d3, .r1d4, .r1d5, .r1d6, .r1d7, .r1d8, .r1d9, .r1d10 {
+  height: 62px;
+  width:10%;
+}
+.r2d1, .r2d2, .r2d3, .r2d4, .r2d5, .r2d6, .r2d7, .r2d8, .r2d9, .r2d10 {
+  height: 62px;
+  width:10%;
+}
+.row-one {
+  display: flex;
+  flex-direction: row;
+  width: 100%
+  height: 62px;
+  margin-bottom: 25px;
+}
+.row-two {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:62px;
+}
+.title-bar {
+  margin: 0 auto;
+  height: 155px;
+}
+.text-wrap div {
+  display: block;
+  width: 10%;
+}
+.randomizer {
+  margin: 0 auto;
+  text-align: center;
+}
+.button-box {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
